@@ -3,8 +3,7 @@ import { useState } from "react";
 
 function ChatPage() {
   const [query, setQuery] = useState("");
-  const [answer, setAnswer] = useState("");
-
+  const [answer, setAnswer] = useState("");         
   const askBackend = async () => {
     const res = await axios.post("http://localhost:5000/ask", {
       query,
