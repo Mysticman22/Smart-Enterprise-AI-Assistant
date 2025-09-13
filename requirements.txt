@@ -1,0 +1,15 @@
+
+# AI & LLM
+llama-cpp-python
+llama-index
+sentence-transformers
+torch
+
+# Vector DB
+chromadb
+
+# Backend & Frontend
+fastapi
+uvicorn[standard]
+streamlit
+requests
